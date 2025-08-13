@@ -1,0 +1,135 @@
+body {
+  background: #e1c14a;
+  color: #5a3e2b;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #e08907;
+  margin-top: 20px;
+}
+
+.header img {
+  margin-top: 30px;
+}
+
+.menu {
+  margin: 30px auto;
+  width: 80%;
+}
+.menu-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.churrissimo {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  background-color: #432800;
+  color: #000;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.churrissimo li {
+  margin: 10px 0;
+}
+
+.contact {
+  margin: 40px auto;
+  font-size: 0.95em;
+  color: #7a5c44;
+}
+
+.fun-buttons {
+  margin: 20px 0;
+}
+
+button, .link-button {
+  background-color: #d6671d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover, .link-button:hover {
+  background-color: #a54c14;
+}
+.about-section {
+  margin: 30px auto;
+  max-width: 700px;
+  background-color: #fdf1da;
+  border-left: 6px solid #c36f38;
+  padding: 20px;
+  border-radius: 10px;
+  color: #261509;
+}
+
+.mission {
+  margin: 30px auto;
+  max-width: 600px;
+  font-style: italic;
+}
+
+.menu-item {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #fff8e7;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: scale(1.03);
+}
+
+.menu-item h4 {
+  font-family: 'Georgia', serif;
+  font-size: 1.5em;
+  color: #a3480c;
+  margin-top: 10px;
+}
+
+.menu-item p {
+  font-size: 1.2em;
+  color: #2c170898;
+}
+
+.menu-item img {
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.menu-item {
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+
+.about-section {
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 3;
+  }
+}
+.link-button {
+  transition: background-color 0.6s ease, transform 0.4s ease;
+}
+.link-button:hover {
+  transform: translateY(-2px);
+}
